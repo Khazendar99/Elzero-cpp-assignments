@@ -7,7 +7,7 @@ int main()
 {
     vector<int> firstnumbers = {10, 30, 50, 70};
     vector<int> secondnumbers = {20, 40, 60, 80};
-    vector<int> thirdVector(8);
+    vector<int> thirdVector(firstnumbers.size() + secondnumbers.size());
     merge(firstnumbers.begin(), firstnumbers.end(), secondnumbers.begin(), secondnumbers.end(), thirdVector.begin());
     for (int i : thirdVector)
     {
