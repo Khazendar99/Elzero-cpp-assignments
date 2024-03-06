@@ -10,7 +10,9 @@ int simpleMultiplication(int a)
     {
         return a *= 9;
     }
-    return 0;
+   // Another Method
+   // return a % 2 == 0 ? a * 8 : a * 9;
+
 }
 main()
 {
